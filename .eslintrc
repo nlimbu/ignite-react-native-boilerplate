@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "camelcase": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-unescaped-entities": 0,
+    "comma-dangle": 0,
+    "eol-last": 0,
+    "semi": 0,
+    "max-len": [
+      2,
+      10240000000,
+      4
+    ],
+    "radix": 0,
+    "quotes": 0,
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}
